@@ -22,11 +22,15 @@ namespace Nessie.Editor
         private string[] packageDataNames;
         private int selectedData;
 
+        private Vector2 scrollPos;
+
         [MenuItem("Window/Nessie/Package Builder")]
         static void Init()
         {
             PackageBuilder window = (PackageBuilder)GetWindow(typeof(PackageBuilder));
             window.titleContent.text = "Nessie's Package Builder";
+            Debug.Log(window.position.width);
+            window.minSize = new Vector2(300, 100);
             window.Show();
         }
 
@@ -59,6 +63,8 @@ namespace Nessie.Editor
             thisSO.Update();
 
             EditorGUI.BeginChangeCheck();
+
+            scrollPos = EditorGUILayout.BeginScrollView(scrollPos);
 
             selectedData = EditorGUILayout.Popup("Package Data", selectedData, packageDataNames);
 
@@ -109,6 +115,8 @@ namespace Nessie.Editor
                     ApplyAssets();
                 }
             }
+
+            EditorGUILayout.EndScrollView();
         }
 
         private void ApplyAssets()
