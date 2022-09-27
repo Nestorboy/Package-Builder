@@ -1,0 +1,19 @@
+/*
+!.git
+!.gitattributes
+!.github
+!.gitignore
+!LICENSE
+!README.md
+
+# Main directories
+!Assets
+Assets/*
+!Assets/Nessie
+!Assets/Nessie.meta
+Assets/Nessie/*
+!Assets/Nessie/Editor
+!Assets/Nessie/Editor.meta
+Assets/Nessie/Editor/*
+!Assets/Nessie/Editor/PackageBuilder
+!Assets/Nessie/Editor/PackageBuilder.meta

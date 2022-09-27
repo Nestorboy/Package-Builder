@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c34480131b849d54b94bdd8b291b7280, type: 3}
+  m_Name: Package_Builder
+  m_EditorClassIdentifier: 
+  Flags: 0
+  PackageName: Package_Builder_v0.2.0
+  PackagePath: Assets/Nessie/Editor/Package Builder/Packages/t/
+  AssetGUIDs:
+  - 87c64b138a9cdb446940f7b97157ad44
+  - c34480131b849d54b94bdd8b291b7280
+  - cc8a292e22a638d439b77b4c9d8f4539
+  AssetPaths:
+  - Assets/Nessie/Editor/Package Builder/PackageBuilder.cs
+  - Assets/Nessie/Editor/Package Builder/PackageData.cs
+  - Assets/Nessie/Editor/Package Builder/Package_Builder.asset
