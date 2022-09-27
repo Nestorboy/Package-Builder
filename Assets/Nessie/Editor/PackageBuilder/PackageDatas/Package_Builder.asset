@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Flags: 0
   PackageName: Package_Builder_v0.2.0
-  PackagePath: Assets/Nessie/Editor/Package Builder/Packages/t/
+  PackagePath: Assets/Nessie/Editor/PackageBuilder/Packages/
   AssetGUIDs:
   - 87c64b138a9cdb446940f7b97157ad44
   - c34480131b849d54b94bdd8b291b7280
   - cc8a292e22a638d439b77b4c9d8f4539
   AssetPaths:
-  - Assets/Nessie/Editor/Package Builder/PackageBuilder.cs
-  - Assets/Nessie/Editor/Package Builder/PackageData.cs
-  - Assets/Nessie/Editor/Package Builder/Package_Builder.asset
+  - Assets/Nessie/Editor/PackageBuilder/Scripts/PackageBuilder.cs
+  - Assets/Nessie/Editor/PackageBuilder/Scripts/PackageData.cs
+  - Assets/Nessie/Editor/PackageBuilder/PackageDatas/Package_Builder.asset
